@@ -1,0 +1,23 @@
+---
+layout: base
+---
+{% if page.cover_image %}
+<div class="blog-cover no-subtitle" style="background-image:url(/images/{{ page.cover_image }});">
+    <section>
+        <div class="container">
+            <h1><span class="logo logo-white">EM</span> WORSHIP</h1>
+        </div>
+    </section>
+</div>
+{% endif %}
+
+<article>
+
+    <div class="container">
+        
+        <section>
+            {{ content }}
+        </section>
+
+    </div>
+</article>
