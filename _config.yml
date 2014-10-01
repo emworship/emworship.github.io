@@ -44,6 +44,7 @@ layouts:     ./_layouts
 include:     ['.htaccess']
 exclude:     ['Rakefile', 'Gemfile', 'Gemfile.lock']
 timezone:    nil
+locale:      en-nz
 
 # Show future posts
 future:      false
