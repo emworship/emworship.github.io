@@ -7,7 +7,7 @@ inc:
   
   # Company information
   company:      EM WORSHIP
-  url:          http://www.etmente.com/
+  url:          http://www.emworship.com/
   
   right_link: "#"
   right_link_text: "Get our Newsletter"
@@ -19,8 +19,8 @@ inc:
   
   # Sharing settings
   sharing:
-    twitter:    'etmente'
-    facebook:   'etmente'
+    twitter:    'emworship'
+    facebook:   'emworship'
     gplus:      false
     hn:         false
     

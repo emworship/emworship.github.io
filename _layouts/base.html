@@ -36,7 +36,7 @@
             <a class="brand" href="/">
                 <img src="/images/{{ site.inc.logo }}" alt="Inc">
             </a>
-            <a href="/" class="home">Blog</a>
+            <a href="/" class="home">Home</a>
             <a href="/" class="home">Categories</a>
             <a href="/" class="home">Resources</a>
             <a href="/" class="home">About</a>
@@ -57,20 +57,19 @@
         
         <nav>
             <a href="{{ site.inc.url }}">{{ site.inc.company }}</a> &middot;
-            <a href="/">Blog</a> &middot;
+            <a href="/">Home</a> &middot;
             <a href="/">Categories</a> &middot;
             <a href="/">Resources</a> &middot;
             <a href="/">About</a> &middot;
             <a href="/">Contact</a>
-            {{ site.inc.twitter }}
         </nav>
         
         <nav class="social">
-            {% if site.inc.twitter %}
-            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
+            {% if site.inc.sharing.twitter %}
+            <a href="https://twitter.com/{{ site.inc.sharing.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
             {% endif %}
-            {% if site.inc.facebook %}
-            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>
+            {% if site.inc.sharing.facebook %}
+            <a href="http://facebook.com/{{ site.inc.sharing.facebook }}" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>
             {% endif %}    
             <a href="/feed.xml" title="RSS Feed">
                 <i class="icon icon-rss black"></i>
