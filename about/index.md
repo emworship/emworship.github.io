@@ -21,7 +21,7 @@ You can't put it much better than that! We'd love to get your insights in to wor
 
 ## Who are we
 
-EM WORSHIP is run by Nick Malcolm, based out of Wellington, New Zealand. Nick is a worship leader at [Karori Baptist Church](http://www.kbc.org.nz) as a way to collect his thoughts, and hopefully help others.
+EM WORSHIP is run by Nick Malcolm, based out of Wellington, New Zealand. Nick is part of [Karori Baptist Church](http://www.kbc.org.nz), where he sometimes leads worship.
 
 Nick also has a background in the Anglican choral tradition, having sung with Nelson & Wellington's Cathedral Choirs for many years.
 

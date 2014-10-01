@@ -17,29 +17,32 @@ description: EM WORSHIP is a blog exploring leading worship with spirit and unde
   {% unless post.draft %}
     <section class="index">
         <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
-        <div>
-            <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}{% if post.subtitle %} &mdash; {{ post.subtitle }}{% endif %}</a></h2>
+        <article>
+            <header>
+                <h1 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h1>
+                {% if post.subtitle %}<h2 class="subtitle">{{ post.subtitle }}</h2>{% endif %}
+            </header>
             <p>{{ post.excerpt }}</p>
             <p><a href="{{ post.url }}">Continue Reading &rarr;</a></p>
             <div class="meta">
                 Written By <address>{{ post.author.name }}</address> &mdash;
                 <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
             </div>
-        </div>
+        </article>
         <hr>
     </section>
-    {% endunless %}
-    {% endfor %}
-    <section class="pagination" style="text-align:center">
-      {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-        <a href="/" class="btn btn-outline">‹ Newer</a>
-        {% else %}
-        <a href="/page{{ paginator.previous_page }}" class="btn btn-outline">‹ Newer</a>
-        {% endif %}
-      {% endif %}
-      {% if paginator.next_page %}
-        <a href="/page{{ paginator.next_page }}" class="btn btn-outline">Older ›</a>
-      {% endif %}
-    </section>
+  {% endunless %}
+{% endfor %}
+<section class="pagination" style="text-align:center">
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <a href="/" class="btn btn-outline">‹ Newer</a>
+    {% else %}
+    <a href="/page{{ paginator.previous_page }}" class="btn btn-outline">‹ Newer</a>
+    {% endif %}
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}" class="btn btn-outline">Older ›</a>
+  {% endif %}
+</section>
 </article>

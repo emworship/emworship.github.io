@@ -1,5 +1,6 @@
 ---
 layout: page
+cover_image: covers/map.jpg
 title: "Resources"
 description: "Resources, links, and bits and bobs which we at EM WORSHIP have found helpful"
 ---

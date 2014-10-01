@@ -90,11 +90,11 @@ This song can be played super simple, with a strong acoustic guitar lead. The ch
 
 {% include _youtube.html v="LuvfMDhTyMA" %}
 
-## References
+As always, what do you think about **Lord, I Need You** by Matt Maher? Let me know in the comments below.
+
 
 [^1]: <http://www.crosswalk.com/blogs/dr-ray-pritchard/why-did-you-doubt-11626999.html>
 [^2]: <http://www.worshiptogether.com/songs/songdetail.aspx?iid=1836138>
 
 
-As always, what do you think about **Lord, I Need You** by Matt Maher? Let me know in the comments below.
 

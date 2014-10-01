@@ -9,8 +9,8 @@ inc:
   company:      EM WORSHIP
   url:          http://www.emworship.com/
   
-  right_link: "#"
-  right_link_text: "Get our Newsletter"
+  right_link:
+  right_link_text:
 
   # Comments
   disqus:
