@@ -2,7 +2,7 @@
 layout: page
 cover_image: covers/wellington.jpg
 title: "About Us"
-description: Find out about the team at EM WORSHIP.
+description: Find out about the team at EM WORSHIP, and the goal of this blog. Psallam spiritu et mente.
 ---
 
 # About Us
