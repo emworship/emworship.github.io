@@ -1,8 +1,8 @@
 ---
 layout: base
+description: EM WORSHIP is a blog exploring leading worship with spirit and understanding. What does worship really mean? How can we lead intentional and insightful worship
 ---
 <div class="blog-cover" style="background-image:url(/images/{{ site.inc.cover_image }});">
-    
     <section>
         <div class="container">
             <h1><span class="logo logo-white">EM</span> WORSHIP</h1>
@@ -18,8 +18,9 @@ layout: base
     <section class="index">
         <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
         <div>
-            <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
+            <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}{% if post.subtitle %} &mdash; {{ post.subtitle }}{% endif %}</a></h2>
             <p>{{ post.excerpt }}</p>
+            <p><a href="{{ post.url }}">Continue Reading &rarr;</a></p>
             <div class="meta">
                 Written By <address>{{ post.author.name }}</address> &mdash;
                 <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>

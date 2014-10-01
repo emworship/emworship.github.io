@@ -2,6 +2,7 @@
 
 /* Bodytext font */
 $font: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif-font: Merriweather, Georgia, serif;
 
 /* Font for headings */
 $fontheadings: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -10,6 +11,7 @@ $fontheadings: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $text: #21272d;
 $textmuted: #848484;
 $accent: #2077b2;
+$accent-lighter: lighten($accent, 20%);
 
 
 /* IMPORT CSS FILES */

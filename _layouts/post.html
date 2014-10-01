@@ -11,7 +11,7 @@ layout: base
 <article>
 
     <div class="container">
-        <header>
+        <header id="top">
             <div class="meta">
                 By <address><a rel="author" href="{{ page.author.link }}" title="{{ page.author.name }}" target="_blank">{{ page.author.name }}</a></address> &mdash;
                 <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
@@ -22,16 +22,44 @@ layout: base
 
         <section>
             {{ content }}
-            {% include _social.html %}
+            <p>
+                <a href="#top">&uarr; Back to top</a>
+            </p>
         </section>
 
         <footer>
             <address>
-               {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
-                <p>Written by <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
-                <span class="muted">{{ page.author.bio }}</span>
+                <p>
+                    {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
+                    Written by 
+                    <strong>
+                    {% if page.author.twitter %}
+                    <a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">
+                        {{ page.author.name }}
+                    </a>
+                    {% else %}
+                    {{ page.author.name }}
+                    {% endif %}
+                    </strong><br />
+                {% if page.author.bio %}<span class="muted">{{ page.author.bio }}</span>{% endif %}
                 </p>
             </address>
+            <section class="tags" role="tags">
+                {% if page.category %}
+                    <ul class="list-inline tags">
+                        <li><strong>CATEGORY:</strong></li>
+                        <li>{{page.category}}</li>
+                    </ul>
+                {% endif %}
+                {% if page.tags %}
+                    <ul class="list-inline tags">
+                        <li><strong>TAGS:</strong></li>
+                        {% for tag in page.tags %}
+                        <li>{{ tag }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </section>
 
         </footer>
 
