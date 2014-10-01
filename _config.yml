@@ -27,7 +27,7 @@ inc:
   
  # Analytics     
   analytics:
-    google: false # Add tracking code in _includes/_google-analytics.html
+    google: UA-41055441-3 # Add tracking code in _includes/_google-analytics.html
       
       
   # Google Fonts
