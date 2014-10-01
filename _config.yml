@@ -36,7 +36,7 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://www.worshipmind.com
+url:         http://www.emworship.com
 source:      .
 destination: ./_site
 plugins:     ./_plugins
