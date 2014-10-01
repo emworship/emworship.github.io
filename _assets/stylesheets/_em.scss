@@ -1,0 +1,18 @@
+.logo {
+  border-width: 8px;
+  border-style: solid;
+  border-color: black;
+
+  &.logo-white {
+    border-color: white;
+  }
+}
+
+.blog-cover {
+  h1{
+    margin-bottom: 40px;
+    .logo {
+      padding: 22px 13px;
+    }
+  }
+}

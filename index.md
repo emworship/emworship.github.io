@@ -5,7 +5,7 @@ layout: base
     
     <section>
         <div class="container">
-            <h1>{{ site.inc.title }}</h1>
+            <h1><span class="logo logo-white">EM</span> WORSHIP</h1>
             {% if site.inc.subtitle %}<h3>{{ site.inc.subtitle }}</h3>{% endif %}
         </div>
     </section>
