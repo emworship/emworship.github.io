@@ -17,15 +17,14 @@ author:
   image: nick-malcolm.png
 ---
 
-Matt Maher's _Lord, I Need You_, from his 2013 album _All The People Said Amen_, describes our relationship with and dependence on the Lord, particularly when we're experiencing hardship.
+Matt Maher's [_Lord, I Need You_](https://itunes.apple.com/), from his 2013 album [_All The People Said Amen_](https://itunes.apple.com/nz/album/all-the-people-said-amen-live/id634140898), describes our relationship with and dependence on the Lord, particularly when we're experiencing hardship.
 
 ## Talking points
 
 Much of the song focuses on the attributes of God - our defender, the one who guides us, who holds us together. Because of these attributes we can trust him with a relationship of dependence, one we know will endure any and all trials thrown at us.
 
-<blockquote class="hero-quote">
-  <p>When I cannot stand I'll fall on you</p>
-</blockquote>
+> When I cannot stand I'll fall on you
+{: .hero-quote}
 
 ### 1. Peter walking on water
 
@@ -45,9 +44,8 @@ There's so much more you can get out of this particular story, so I think it'd b
 
 Hearking back to 2004's "Your Grace Is Enough", written by Maher and recorded by Chris Tomlin, we get a mention of [2 Corinthians 12 9](https://www.biblegateway.com/passage/?search=2+Corinthians+12:9&version=NIV) when the Lord promises to Paul that His grace is sufficient to allow him to live with (and boast in!) his affliction.
 
-<blockquote class="hero-quote">
-  <p>Where sin runs deep, your grace is more</p>
-</blockquote>
+> Where sin runs deep, your grace is more
+{: .hero-quote }
 
 Unlike Peter, where the problem was immediately solved by Jesus offering his hand, here we are reminded that hardship won't always disappear at our initial cry to Jesus. Again, we can only continue to confess our need for Jesus' love and grace, and find a way to rejoice in it!
 
@@ -66,11 +64,15 @@ This song is quite versatile, with multiple threads you can pull out and focus o
       * The song has a good mix of reflectiveness, with enough drive and joy to let their hearts sing out to God. 
       * You want the congregation to get their penitent thinking hats on, without being too mopey.
 
-<blockquote class="hero-quote">
-  <p>Get their penitent thinking hats on, without being too mopey</p>
-</blockquote>
+> Get their penitent thinking hats on, without being too mopey
+{: .hero-quote}
 
 ## Singability / Playability
+
+
+<div class="right zoomable">
+  <img src="/images/range/matt-maher-lord-i-need-you-in-b.png" alt="Musical range showing G3 to F5" class="no-margin" width="150" />
+</div>
 
 The 'original' is B. The Youtube video is in Bb. In Bb, the lowest note is a G3 - _"... I find my **rest**"_. Highest is an F5 _"Ev'**ry** hour"_.
 
@@ -87,6 +89,8 @@ This song can be played super simple, with a strong acoustic guitar lead. The ch
   * [Not For A Moment (After All) - Meredith Andrews](https://www.youtube.com/watch?v=XD0cvWImVjA)
 
 ## Listen
+
+**[Click here to buy _Lord, I Need You_ on iTunes](https://itunes.apple.com/nz/album/all-the-people-said-amen-live/id634140898){: .green}**
 
 {% include _youtube.html v="LuvfMDhTyMA" %}
 
