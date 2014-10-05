@@ -51,10 +51,12 @@ This is one I really struggle with. I'm fine up the front, but talking to people
   <p>Have a coffee with someone, and ask how things are <strong>really</strong> going.</p>
 </blockquote>
 
-Make it a goal to talk to someone new, or build on an existing relationship, each service. Have a coffee with someone during the week, and ask how things are _really_ going. Personal relationships are really important, especially during hard times.
+Make it a goal to talk to someone new, or build on an existing relationship, each service. Have a coffee with someone during the week, and ask how things are _really_ going. Personal relationships are really important, especially during hard times. 
+
+As Jon's post said, **forge** a relationship. Forge means the heat of the flame, and the cool of the water. Being there through the ups and downs.
 
 Getting to the nitty gritty of life takes trust and time, so it's OK to focus on those that are more relatable. But try and reach out beyond your comfort zone every now and again, to build that base of community and fellowship.
 
-## What do you do?
+## How do you forge relationships?
 
 Let me know in the comments below how you keep tabs on your congregation. How do your services show an understanding of, and compassion for, the people in your church?
