@@ -59,4 +59,4 @@ Getting to the nitty gritty of life takes trust and time, so it's OK to focus on
 
 ## How do you forge relationships?
 
-Let me know in the comments below how you keep tabs on your congregation. How do your services show an understanding of, and compassion for, the people in your church?
+Let me know in the comments below how you keep tabs on your congregation. How do you forge relationships? How do your services show an understanding of, and compassion for, the people in your church?
