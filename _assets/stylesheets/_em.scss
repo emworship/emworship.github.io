@@ -10,6 +10,18 @@ h1, h2, h3{
   color: $green;
 }
 
+.red {
+  color: $red;
+}
+
+.accent {
+  color: $accent;
+}
+
+.accent-lighter{
+  color: $accent-lighter
+}
+
 .center {
   text-align: center;
 }
@@ -75,4 +87,18 @@ div.footnotes {
 
 .no-margin{
   margin: 0;
+}
+
+.asterisk {
+  font-weight: normal;
+}
+
+
+
+
+#mc_embed_signup input.mce_inline_error {
+  border-color: $red !important; 
+}
+#mc_embed_signup div.mce_inline_error  {
+  background-color: $red !important;
 }

@@ -42,6 +42,7 @@
         </nav>
         {% if site.inc.right_link %}
         <nav class="tagline">
+            {% if site.inc.right_link_tagline %}<span class="accent">{{ site.inc.right_link_tagline }}</span>{% endif %}
             <a href="{{ site.inc.right_link }}" class="btn btn-outline">
                 {{ site.inc.right_link_text }}
             </a>
