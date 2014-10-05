@@ -83,14 +83,17 @@
         }
     }
     
-    .site-nav .tagline span {
+    .site-nav .tagline {
         display:none;
     }
     
     .site-nav {
         #navigation {
             a {
-                display:none;
+                display: none;
+            }
+            .home {
+                display: inline-block;
             }
             
             .brand {
